@@ -6,6 +6,10 @@ You are a member of a clandestine group that specializes in covert communication
 
 # Setup
 
+# Requirements
+
+# App installation
+
 # Key Images
 The following images should be scanned with the application to reveal the hidden video.
 
