@@ -6,3 +6,4 @@ You are a member of a clandestine group that specializes in covert communication
 
 # Setup
 ![plot](https://github.com/PuffyNippleS/CybersecurtyPrac1/blob/main/Assets/Image1.jpg)
+![plot](https://github.com/PuffyNippleS/CybersecurtyPrac1/blob/main/Assets/Image2.jpg)
