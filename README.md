@@ -5,9 +5,35 @@ In this project, we're combining the ancient practice of steganography, which in
 You are a member of a clandestine group that specializes in covert communication techniques. To amplify the security and intrigue of your exchanges, you've decided to combine the age-old art of steganography with cutting-edge Augmented Reality (AR) technology. Through a custom AR application, your group can now share hidden video messages within innocuous-looking images.
 
 # Description
-The following app uses Unity-based application on Android to view images via the camera and display a hidden video. Using Vuforia to create Augmented Reality space viewed through the camera to change the tracked image into the secret video. Using Google AR Core, the camera tracks the images until the image that is being tracked is identified.Using an array I store the images as 2D textures. I use Event handlers to tack if the images are being received and if not to allow to identify the correct image.
+- App Functionality:
+  - Utilizes Unity-based application on Android platform for image viewing and video display.
+  
+- Augmented Reality Technology:
+  - Implements Vuforia to create an Augmented Reality environment viewed through the device's camera.
+  - Transforms tracked images into a hidden video within the AR space.
 
-Using the event handler called OnTrackedImgaesChange  look the the images in my array and then find if its equal to the images we are looking for. Once Found It replaces the Image that is found/ Being tracked with the Texture usign Vuforia it then places a plane over it and plays the video 
+- Camera Tracking:
+  - Relies on Google AR Core to track images using the device's camera.
+  - Continuously tracks images until the identified target image is recognized.
+
+- Image Storage and Handling:
+  - Utilizes an array to store images as 2D textures for efficient processing.
+  - Employs event handlers to monitor the reception of images and ensures proper identification.
+
+- Image Replacement and Video Playback:
+  - Utilizes the event handler "OnTrackedImagesChange" to initiate tracking image changes.
+  - Compares images in the array to the target images.
+  - Upon finding a match:
+    - Replaces the tracked image with the corresponding texture using Vuforia.
+    - Places a plane over the identified image for visualization.
+    - Initiates playback of the hidden video.
+
+Additional Information:
+- The app leverages a combination of Vuforia and Google AR Core technologies to provide a seamless augmented reality experience.
+- Event handling, particularly the "OnTrackedImagesChange" event, plays a pivotal role in detecting changes in the tracked images.
+- The integration of Vuforia allows for smooth replacement of tracked images with textures, facilitating video playback.
+
+
 # Requirements
 As the receiver all you require is a Mobile andriod phone with the following:
 Andriod version 7.0 and Above.
