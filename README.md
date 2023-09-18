@@ -9,7 +9,11 @@ You are a member of a clandestine group that specializes in covert communication
 # Requirements
 
 # App installation
-
+The apk to install on the android device.
+https://drive.google.com/drive/folders/1XkHikFFkGYTqSaOm0gDYW74wButVGEVo
+# How to video
+Watch this video to understand how the app works.
+https://drive.google.com/drive/folders/1XkHikFFkGYTqSaOm0gDYW74wButVGEVo
 # Key Images
 The following images should be scanned with the application to reveal the hidden video.
 
