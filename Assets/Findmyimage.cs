@@ -6,8 +6,8 @@ using UnityEngine.XR.ARSubsystems;
 
 [RequireComponent(typeof(ARTrackedImageManager))]
 public class Findmyimage : MonoBehaviour {
-    // Reference to AR tracked image manager component Actually tracking the Image
-    private ARTrackedImageManager _trackedImagesManager;
+   
+    private ARTrackedImageManager _trackedImagesManager; // Reference to AR tracked image manager component Actually tracking the Image 
 
     // List of textures being tracked as their corresponding 2D images in the reference image library 
     public GameObject[] ArPrefabs;
@@ -19,20 +19,16 @@ public class Findmyimage : MonoBehaviour {
         // Cache a reference to the Tracked Image Manager component
         _trackedImagesManager = GetComponent<ARTrackedImageManager>();
     }
-
     void OnEnable() {
         // Attach event handler when tracked images change
         _trackedImagesManager.trackedImagesChanged += OnTrackedImagesChanged;
     }
-
     void OnDisable() {
         // Remove event handler
         _trackedImagesManager.trackedImagesChanged -= OnTrackedImagesChanged;
     }
-
     // Event Handler
     private void OnTrackedImagesChanged(ARTrackedImagesChangedEventArgs eventArgs) {
-
         // Loop through all new tracked images that have been detected
         foreach (var trackedImage in eventArgs.added) {
             // Get the name of the reference image
@@ -50,14 +46,12 @@ public class Findmyimage : MonoBehaviour {
                 }
             }
         }
-
         // For all prefabs that have been created so far, set them active or not depending
         // on whether their corresponding image is currently being tracked
         foreach (var trackedImage in eventArgs.updated) {
             _instantiatedPrefabs[trackedImage.referenceImage.name]
                 .SetActive(trackedImage.trackingState == TrackingState.Tracking);
         }
-
         // If the AR subsystem has given up looking for a tracked image
         foreach (var trackedImage in eventArgs.removed) {
             // Destroy its prefab
