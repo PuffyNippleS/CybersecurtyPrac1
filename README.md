@@ -5,8 +5,16 @@ In this project, we're combining the ancient practice of steganography, which in
 You are a member of a clandestine group that specializes in covert communication techniques. To amplify the security and intrigue of your exchanges, you've decided to combine the age-old art of steganography with cutting-edge Augmented Reality (AR) technology. Through a custom AR application, your group can now share hidden video messages within innocuous-looking images.
 
 # Description
+The following app uses Unity-based application on Android to view images via the camera and display a hidden video. Using Vuforia to create Augmented Reality space viewed through the camera to change the tracked image into the secret video. Using Google AR Core, the camera tracks the images until the image that is being tracked is identified. Once identified, it uses Vuforia to remove the image and instead display the secret video.   
 
 # Requirements
+As the receiver all you require is a Mobile andriod phone with the following:
+Andriod version 7.0 and Above.
+Google AR Services
+
+As the developer you require:
+Unity Editor with Andriod SDK and NDK
+Vuforia
 
 
 # App installation
