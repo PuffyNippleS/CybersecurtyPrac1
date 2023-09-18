@@ -1,5 +1,5 @@
 # CybersecurtyPrac1
-Steganography, the art of concealing information within non-secret mediums, meets the innovative realm of Augmented Reality (AR) in this project. Augmented Reality enhances the real world by overlaying digital elements, such as visuals, sound, or sensory cues, through technology. This project aims to develop an AR application that hides sensitive information like videos or audio files, only accessible when viewed through a specific AR marker shared with the receiver.
+In this project, we're combining the ancient practice of steganography, which involves hiding information in plain sight, with cutting-edge Augmented Reality (AR) technology. Augmented Reality adds a digital layer to our physical world, incorporating visuals, sound, and sensory elements through technology. Our goal is to create an AR application that securely conceals sensitive content like videos or audio files. This hidden content can only be unlocked when viewed through a specific AR marker, which will be shared exclusively with the intended recipient.
 
 # Scenario
 
