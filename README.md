@@ -4,9 +4,10 @@ In this project, we're combining the ancient practice of steganography, which in
 # Scenario
 You are a member of a clandestine group that specializes in covert communication techniques. To amplify the security and intrigue of your exchanges, you've decided to combine the age-old art of steganography with cutting-edge Augmented Reality (AR) technology. Through a custom AR application, your group can now share hidden video messages within innocuous-looking images.
 
-# Setup
+# Description
 
 # Requirements
+
 
 # App installation
 The apk to install on the android device.
