@@ -29,3 +29,8 @@ The following images should be scanned with the application to reveal the hidden
 
 ![plot](https://github.com/PuffyNippleS/CybersecurtyPrac1/blob/main/Assets/Image1.jpg)
 ![plot](https://github.com/PuffyNippleS/CybersecurtyPrac1/blob/main/Assets/Image2.jpg)
+
+References:
+https://developer.vuforia.com/support
+https://www.youtube.com/watch?v=gpaq5bAjya8&feature=youtu.be
+
