@@ -5,5 +5,10 @@ In this project, we're combining the ancient practice of steganography, which in
 You are a member of a clandestine group that specializes in covert communication techniques. To amplify the security and intrigue of your exchanges, you've decided to combine the age-old art of steganography with cutting-edge Augmented Reality (AR) technology. Through a custom AR application, your group can now share hidden video messages within innocuous-looking images.
 
 # Setup
+
+# Key Images
+The following images should be scanned with the application to reveal the hidden video.
+
+
 ![plot](https://github.com/PuffyNippleS/CybersecurtyPrac1/blob/main/Assets/Image1.jpg)
 ![plot](https://github.com/PuffyNippleS/CybersecurtyPrac1/blob/main/Assets/Image2.jpg)
