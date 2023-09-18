@@ -43,7 +43,7 @@ Google AR Services
 As the developer you require:
 Unity Editor with Andriod SDK and NDK
 Vuforia
-
+Kindly note the Library file has not been uploaded due to size limitations
 
 # App installation
 The apk to install on the android device.
